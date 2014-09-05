@@ -1,4 +1,6 @@
 Mycontact::Application.routes.draw do
+post 'email/email_send' => 'email#email_send'
+get 'email/email_form' => 'email#email_form'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
